@@ -1,2 +1,4 @@
-# sarat9892.github.io
-F1 Facts
+# F1 Facts
+
+This is my first attempt at making an F1 themed visualization project
+Stay Tuned!

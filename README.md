@@ -1,5 +1,7 @@
-# F1 Facts
+# My Work
 
-This is my first attempt at making an F1 themed visualization project.
+Changed my mind. This is where I'll attempt to showcase everything that I'm doing. Or at least 'trying' to do.
+
+My first project is an F1 page.
 
 Stay Tuned!

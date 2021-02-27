@@ -2,22 +2,72 @@
 
 <html>
 
-    <head>
-	<meta charset = "UTF-8">
-        <title>Sarat Karasala</title>    
-    </head>
+	<head>
 
-    <body>
-
+		<style>
+			body {margin:0;}
 	
-	<h1 style="text-align:center">My Work</h1>
-	<ul>
-		<li><a href = "f1home.html">Formula 1 Project</a></li>
-	</ul
-
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #222;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			}
 	
 
+			li {
+			  float: left;
+			}
+			
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+		
+
+			li a:hover:not(.active) {
+			  background-color: #111;
+			}
+		
+
+			.active {
+			  background-color: #4CAF50;
+			}
+		</style>
 
 
-    </body>
+		<title>My Work</title>
+	
+	</head>
+
+
+	<body>
+
+		<ul>
+		  <li><a class="active" href="#home">Home</a></li>
+		  <li><a href="f1home.html">Formula 1</a></li>
+		  <li><a href="project2.html">Project 2</a></li>
+		  <li><a href="aboutme.html">About</a></li>
+		</ul>
+	
+		<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+	
+		  <h1 style="text-align:center;">My Work</h1>
+
+		  <hr style="height:3px;border:none;background-color:#000000;">	
+		
+		  <p>Some text explaining some work</p>
+	
+		</div>
+	
+	</body>
+
 </html>

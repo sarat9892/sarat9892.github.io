@@ -3,34 +3,95 @@
 <html>
 
     <head>
+                
+  	<style>
+  
+
+		div.navbar {
+
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		 	
+	        }		
 
 
+		div {
+		 	max-width: 1500px;
+	  		padding: 50px;
+	 		margin: auto;
+	       		overflow: visible;            
+	        }
+
+		body {margin:0;}
+
+	
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #222;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+	
+
+		li {
+		  float: left;
+		}
+		
+
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+
+		li a:hover:not(.active) {
+		  background-color: #111;
+		}
+	
+
+
+		.active {
+		  background-color: #4CAF50;
+		}
+
+    	</style>
+    
 	<meta charset = "UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formula 1</title>
 
-	<style>
-
-	div {
-
-	max-width: 1500px;
-	padding: 50px;
-	margin: auto;
-	overflow: hidden;
-
-	}
-
-	</style>
-
-        <title>Formula 1</title>    
     </head>
 
-    <body>
 
-	<h1 style="text-align:center">Formula 1</h1>
-	<hr style="height:3px;border:none;background-color:#000000;">
-	<a href = "index.html">Back</a>
+    <body style="background-color:#1abc9c;">
 
-	<div class='tableauPlaceholder' id='viz1614402433743' style='position: relative'>
+	<div class="navbar">
+
+	<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a class="active" href="f1home.html">Formula 1</a></li>
+		  <li><a href="project2.html">Project 2</a></li>
+		  <li><a href="aboutme.html">About</a></li>
+	</ul>
+
+	</div>
+
+
+	<div>
+	<h1 style="text-align:center;">Formula 1</h1>
+
+   	<hr style="height:3px;border:none;background-color:#000000;">
+	</div>	
+	
+	<div class='tableauPlaceholder' id='viz1614402433743' style='position: relative;background-color:#1abc9c;'>
 
 	<noscript>
 		<a href='https:&#47;&#47;sarat9892.github.io&#47;f1home.html'>
@@ -39,7 +100,8 @@
 	</noscript>
 
 
-	<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+	<object class='tableauViz'  style='display:none;'>
+		<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
  		<param name='embed_code_version' value='3' />
  		<param name='site_root' value='' />
 		<param name='name' value='F1-Viz&#47;Dashboard1' />
@@ -66,6 +128,7 @@
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 	</script>
+        
 
     </body>
 </html>

@@ -1,76 +1,71 @@
 <!DOCTYPE html>
-
 <html>
 
 	<head>
+		<title> My Projects </title>
 
-		<style>
-			body {margin:0;}
-	
-			ul {
-			  list-style-type: none;
-			  margin: 0;
-			  padding: 0;
-			  overflow: hidden;
-			  background-color: #222;
-			  position: fixed;
-			  top: 0;
-			  width: 100%;
-			}
-	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-			li {
-			  float: left;
-			}
-			
-
-			li a {
-			  display: block;
-			  color: white;
-			  text-align: center;
-			  padding: 14px 16px;
-			  text-decoration: none;
-			}
-		
-
-			li a:hover:not(.active) {
-			  background-color: #111;
-			}
-		
-
-			.active {
-			  background-color: #0398fc;
-			}
-		</style>
-
-		<meta charset = "UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-		<title>My Work</title>
-	
+		<link href="styleSheet.css" rel="stylesheet">
 	</head>
 
 
-	<body>
 
-		<ul>
-		  <li><a class="active" href="#home">Home</a></li>
-		  <li><a href="f1home.html">Formula 1</a></li>
-		  <li><a href="project2.html">Project 2</a></li>
-		  <li><a href="aboutme.html">About</a></li>
-		</ul>
-	
-		<div style="padding:20px;margin-top:30px;background-color:#0398fc;height:1500px;">
-	
-		  <h1 style="text-align:center;">My Work</h1>
+<body>	
 
-		  <hr style="height:3px;border:none;background-color:#000000;">	
-		
-		  <p>Some text explaining some work</p>
-	
-		</div>
-	
-	</body>
+<div class="header">
+  <h1>My Projects</h1>
+  <p>...</p>
+</div>
 
+
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About Me</a>
+</div>
+
+
+
+<div class="row">
+
+  <div class="column">
+
+
+    <div class="card">
+
+      <h2>Formula 1</h2>
+
+      <div class="leftcard"><a href="f1Home.html" target=""><img src="ferrari1.jpg" height="80px"></a></div>
+
+      <div class="rightcard"><p style="font-size: 20px;">Formula 1 Facts (1950 - 2020)</p></div>
+
+    </div>
+
+
+    <div class="card">
+
+      <h2>Machine Learning</h2>
+
+      <div class="leftcard"><a href="" target=""><img src="ferrari1.jpg" height="80px"></a></div>
+
+      <div class="rightcard"><p style="font-size: 20px;">My machine learning projects</p></div>
+
+    </div>
+
+
+  </div>
+
+  
+
+</div>
+
+
+
+<div class="footer">
+  <h2>And Away We Go!!</h2>
+</div>
+
+</body>
 </html>

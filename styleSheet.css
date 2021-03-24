@@ -115,7 +115,7 @@ img {
   height: 350px;
   margin-top: 30px;
   border-radius: 25px;
-  font-family: "Comic Sans MS", Comic Sans, cursive;"
+  font-family: "Comic Sans MS", Comic Sans, monospace;"
 }
 
 .explaincard {
@@ -127,7 +127,7 @@ img {
   margin-top: 30px;
 
   border-radius: 25px;
-  font-family: "Comic Sans MS", Comic Sans, cursive;"
+  font-family: "Comic Sans MS", Comic Sans, monospace;"
 }
 
 
@@ -169,7 +169,7 @@ img {
   background: #333;
   margin-top: 30px;
   color: #fff;
-  font-family: "Comic Sans MS", Comic Sans, cursive;	
+  font-family: "Comic Sans MS", Comic Sans, monospace;	
   
 }
 

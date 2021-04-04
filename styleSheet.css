@@ -140,6 +140,11 @@ img {
   border-radius: 25px;
 }
 
+.leftcard:hover
+ {
+  transform: scale(1.02);
+}
+
 
 
 .centercard {
@@ -166,6 +171,11 @@ img {
   margin-top: 25px;
   margin-right: 70px;
   border-radius: 25px;
+}
+
+.rightcard:hover
+ {
+  transform: scale(1.02);
 }
 
 
